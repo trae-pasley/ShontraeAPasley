@@ -7,24 +7,50 @@ html {
 h1 {
     color: var(--primary)
 }
+ 
+.btn {
+  background-color: #222;
+  width: 300px;
+  font-family: 'Bungee', cursive;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin-top: 20px;
 
+}
+
+  
 root {
     
     --primary: #6200EE;
     --secondary: #be0a0a;
     --background: #878999;
 }
+ul {
+list-style: none;
+}
+nav ul {
 
-body {
+  text-align: center;
+  
+}
 
-    font-size: 20px;
+<span class="fas fa-bars"></span>
+
+.hero {
+
+    background: url(")
     font-family: "Poppins", sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     padding: 20px;
     text-align: center;
-  }
+    background-repeat: no-repeat;
+    background-size: cover;
+}
   
   section:nth-of-type(odd),
   footer {
@@ -34,8 +60,10 @@ body {
   
   nav {
     border-top: var(--border-secondary);
-    border-bottom: var(--border-secondary);
+    border-vbottom: var(--border-secondary);
   }
+  
+
   
   footer {
     border-top: var(--border-primary);
@@ -45,6 +73,16 @@ body {
   section:nth-of-type(even) {
     background: var(--secondary);
     color: var(--secondary-text);
+    position: absolute;
   }
   
 
+  @media screen and (min-width: 768px) {
+    header {
+      background: red;
+    .is shown--tablet {
+      height: 100%;
+      display: none; 
+    }
+
+  
